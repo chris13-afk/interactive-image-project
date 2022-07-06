@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- nav -->
+        <nav>
+          <!-- logo -->
+          <div class="logo">
+            <span class="fas fa-pizza"></span>
+            <a href="#title">Nona's Pizza</a>
+          </div>
+          <!--links -->
+          <ul>
+            <li><a href="#title">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      
+        <!-- header -->
+        <header id="title">
+          <div class="title-content">
+            <h1>Nona's Pizza</h1>
+          </div>
+          <div class="title-content">
+            <a href="https://www.thenona-slicehouse.com/menu" class="button">See Our Menu</a>
+          </div>
+        </header>
+      
+        <!-- quote section -->
+        <section class="quote">
+          <p>Do Good. Be Nice. Order Pizza. Repeat.</p>
+        </section>
+      
+        <!-- main -->
+        <main>
+          <!-- about -->
+          <article id="about">
+            <h1>Nona's Mission</h1>
+            <p><a href="https://www.thenona-slicehouse.com/_files/ugd/081b52_ac2ab31224ce43189fa7514a3d186631.pdf">See Our Pizza</a> Our family-owned restaurant showcases multiple styles of pizza from around the world. We feature only the best ingredients, highest quality cheeses, and fresh dough made by hand daily. See our pizzas!</p>
+          </article>
+          <!-- images -->
+          <section class="photos">
+            <img src="https://i.postimg.cc/mDXqL4tV/p-N3.jpg" alt="Pizza">
+      
+           <img src="https://i.postimg.cc/RZLML3WY/Cp1.jpg" alt="Pizza">
+      
+          <img src="https://i.postimg.cc/PrYj4LLj/pexels-jonathan-petersson-1166120.jpg" alt="Pizza" >
+      
+           <img src="https://i.postimg.cc/ZYW5zKQ9/cp3.jpg" alt="Pizza">
+          </section>
+        </main>
+        
+        <div class="main">
+          
+              <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('New')"> New</button>
+        <button class="btn" onclick="filterSelection('Pepperoni')"> Pepperoni</button>
+        <button class="btn" onclick="filterSelection('Vegan')"> Vegan</button>
+      </div>
+              <!-- Portfolio Gallery Grid -->
+              <div class="row">
+                <div class="column New">
+                  <div class="content">
+                    <img src="https://i.postimg.cc/15JYfrcT/p-N1.jpg" alt="Mountains" style="width:100%">
+                    <h4>El Diablo</h4>
+                    <p>Fresh mozzarella, peppadew peppers, soppressata, dollops of ricotta, crushed red pepper. Finished with “Fire in the Hive” local hot honey drizzle and basil after cooking. </p>
+                    <button>Buy Now</button>
+                  </div>
+                </div>
+                <div class="column New">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/X7HQV7n6/p-N2.jpg" alt="Lights" style="width:100%">
+                    <h4>The Garden Pesto</h4>
+                    <p>Fresh spinach, roasted cherry tomatoes, artichokes and black olives with a checkerboard of house-made pesto and finished with fresh basil.</p>
+                    <button >Buy Now</button>
+                  </div>
+                </div>
+                <div class="column New">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/gJVgdV2g/p-N3.jpg" alt="Nature" style="width:100%">
+                    <h4>The Bee's Knees</h4>
+                    <p>No sauce, red onion, finished with shaved parmesan, prosciutto, arugula, and “Fire in the Hive” local hot honey drizzle.</p>
+                    <button >Buy Now</button>
+                  </div>
+                </div>
+                
+                <div class="column Pepperoni">
+                  <div class="content">
+                    <img src="https://i.postimg.cc/52XpjdtY/pexels-horizon-content-3915857.jpg" alt="Car" style="width:100%">
+                    <h4>Death by Pepperoni</h4>
+                    <p>Pepperoni, Rosa Grande pepperoni, and Cup’n’Char pepperoni with smoked provolone, topped with two stripes of marinara.</p>
+                    <button >Buy New</button>
+                  </div>
+                </div>
+                <div class="column Pepperoni">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/NMkkZQdV/p-P2.jpg" alt="Car" style="width:100%">
+                    <h4>The Pan-Demic</h4>
+                    <p>No sauce, hot soppressata, cup n char pepperoni, fresh jalapeño, hot cherry peppers and piped ricotta finished with local “Fire in the Hive” hot honey drizzle</p>
+                    <button >Buy Now</button>
+                  </div>
+                </div>
+                <div class="column Pepperoni">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/Vv7BLDQW/p-P3.jpg" alt="Car" style="width:100%">
+                    <h4>Regular Toppings</h4>
+                    <p>Pepperoni, Italian Sausage, Bacon, Ham, Mushrooms, Cherry tomatoes, Red Onion, Black Olives, Fresh Jalapeno, Pineapple, Whole Roasted Garlic, Meatballs, Rosa Grande Pepperoni, Spinach, Banana Peppers, Pesto</p>
+                    <button >Buy Now</button>
+                  </div>
+                </div>
+              
+                <div class="column Vegan">
+                  <div class="content">
+                    <img src="https://i.postimg.cc/cCTTtdYY/p-V1.jpg" alt="Car" style="width:100%">
+                    <h4>Margherita</h4>
+                    <p>San Marzano tomatoes, fresh mozzarella, olive oil and fresh basil. Winner of the 2011 “Best pizza in America” at the American Pizza Championship.</p>
+                    <button >Buy Now</button>
+                  </div>
+                </div>
+                <div class="column Vegan">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/XqnQvrZ4/pexels-kristina-paukshtite-1146760.jpg" alt="Car" style="width:100%">
+                    <h4>Quattro Formaggi</h4>
+                    <p>No sauce, fresh mozzarella, gorgonzola, ricotta and parmesan</p>
+                    <button >Buy Now</button>
+                  </div>
+                </div>
+                <div class="column Vegan">
+                  <div class="content">
+                  <img src="https://i.postimg.cc/Tw6ckKJg/p-V3.jpg" alt="Car" style="width:100%">
+                    <h4>The Marinara</h4>
+                    <p>No cheese, San Marzano tomatoes, whole-roasted garlic, oregano & EVOO. Finished with basil after cooking.</p>
+                    <button >Buy Now</button>
+                  </div>
+                </div>
+              <!-- END GRID -->
+              </div>
+              
+      
+        <!-- quote section -->
+        <section class="quote">
+          <p>"Every pizza is a personal pizza if you try hard and believe in yourself." - Bill Murray</p>
+        </section>
+      
+        <!-- contact -->
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <!-- form -->
+          <form>
+            <!-- name -->
+            <label for="name">Name</label>
+            <input id="name" type="text">
+            <!-- email -->
+            <label for="email">Email</label>
+            <input id="email" type="email">
+            <!-- comments -->
+            <label for="comments">Comments</label>
+            <textarea id="comments"></textarea>
+            <!-- submit -->
+            <input class="button" type="submit" value="Submit">
+          </form>
+        </section>
+      
+        <!-- footer -->
+        <footer id="footer">
+          <p>Nona’s Pizza &copy; 2021</p>
+        </footer>
+      
+      </div> 
+</body>
+<script type="text/javascript" src="javascript.js"></script>
+</html>
